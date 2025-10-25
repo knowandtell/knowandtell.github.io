@@ -1,4 +1,54 @@
-<!-- Sticky Navigation --><header class="sticky-nav bg-white shadow-md">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know & Tell Agency - Fractional Nonprofit Executive Leadership</title>
+    <!-- Load Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'knt-primary': '#059669', // Emerald 600
+                        'knt-accent': '#2563EB', // Blue 600
+                        'knt-text': '#1F2937', // Gray 800
+                        'knt-bg': '#F9FAFB', // Gray 50
+                        'knt-light-green': '#34D399', // Emerald 400 for softer accents
+                        'knt-light-blue': '#60A5FA', // Blue 400 for softer accents
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Ensures smooth scrolling between sections */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Custom styles for professional box shadow */
+        .card-shadow {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        /* Style for the sticky navigation */
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+        /* Simple icon styling using inline SVG */
+        .icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body class="font-sans bg-knt-bg text-knt-text">
+    <!-- Sticky Navigation --><header class="sticky-nav bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         <h1 class="text-2xl font-bold text-knt-primary">Know & Tell Agency</h1>
         <nav class="hidden md:flex space-x-8">
